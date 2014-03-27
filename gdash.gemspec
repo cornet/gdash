@@ -17,7 +17,7 @@ spec = Gem::Specification.new do |s|
   s.add_dependency 'sinatra'
   s.add_dependency 'therubyracer'
   s.add_dependency 'redcarpet'
-  s.add_dependency 'less'
+  s.add_dependency 'less', '~> 2.2.2'
   s.add_dependency 'json'
   s.add_dependency 'unicorn'
 end
